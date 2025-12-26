@@ -1,0 +1,130 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background: linear-gradient(135deg, #667eea, #764ba2);
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+}
+
+/* ===============================
+   MAIN CONTAINER
+================================= */
+.game-container {
+    background: #ffffff;
+    padding: 30px;
+    width: 360px;
+    max-width: 90%;
+    text-align: center;
+    border-radius: 14px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+}
+
+/* ===============================
+   TEXT
+================================= */
+h1 {
+    font-size: 22px;
+    margin-bottom: 10px;
+}
+
+p {
+    font-size: 14px;
+}
+
+/* ===============================
+   INPUTS & BUTTONS
+================================= */
+input,
+select {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    font-size: 15px;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    font-size: 16px;
+    background-color: #334dc4;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #1221a7;
+}
+
+.restart {
+    background-color: #e92727;
+}
+
+.restart:hover {
+    background-color: #cc0606;
+}
+
+/* ===============================
+   MESSAGE
+================================= */
+#message {
+    margin-top: 15px;
+    font-weight: 600;
+}
+
+#attempts {
+    margin-top: 5px;
+    color: #555;
+}
+
+/* ===============================
+   📱 MOBILE (max-width: 480px)
+================================= */
+@media (max-width: 480px) {
+    .game-container {
+        padding: 20px;
+    }
+
+    h1 {
+        font-size: 18px;
+    }
+
+    input,
+    select,
+    button {
+        font-size: 14px;
+        padding: 9px;
+    }
+}
+
+/* ===============================
+   📱 TABLET (481px – 768px)
+================================= */
+@media (min-width: 481px) and (max-width: 768px) {
+    .game-container {
+        width: 400px;
+    }
+
+    h1 {
+        font-size: 20px;
+    }
+}
+
+/* ===============================
+   💻 DESKTOP (769px and above)
+================================= */
+@media (min-width: 769px) {
+    .game-container {
+        width: 420px;
+    }
+}
