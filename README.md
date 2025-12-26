@@ -1,9 +1,9 @@
 # 🎯 Number Guessing Game
 
+🚀 **Live Demo:** https://playnumberguessinggame.netlify.app/
+
 A simple and interactive **Number Guessing Game** built using **HTML, CSS, and JavaScript**.  
 The game generates a random number between **1 and 100**, and the user tries to guess it with real-time feedback.
-
----
 
 ## 🚀 Features
 
@@ -13,8 +13,6 @@ The game generates a random number between **1 and 100**, and the user tries to 
 - 🔁 Tracks number of attempts
 - 🎨 Clean and responsive UI
 - 🚫 Disables input after correct guess
-
----
 
 ## 🛠️ Technologies Used
 
@@ -50,8 +48,6 @@ number-guessing-game/
 - Input validation
 - Basic UI design
 
----
-
 ## ▶️ How to Run the Project
 
 1. Clone the repository
@@ -59,9 +55,8 @@ number-guessing-game/
    git clone https://github.com/Harshumathi/number-guessing-game.git
 
 ## 🙌 Author
-
 **Harshumathi P**  
 Aspiring Software Developer | Java & Web Development Enthusiast  
 
 📌 LinkedIn: www.linkedin.com/in/harshumathi-p-b530a8250 
-📌 GitHub: github.com/Harshumathi
+📌 GitHub: [github.com/Harshumathi](https://github.com/Harshumathi)
