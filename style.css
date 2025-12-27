@@ -88,7 +88,7 @@ button:hover {
 }
 
 /* 📱 MOBILE FIX */
-@media (max-width: 480px) {
+@media (max-width: 360px) {
 
     body {
         padding: 15px;
@@ -98,8 +98,9 @@ button:hover {
         width: 100%;
         max-width: 380px;   /* ⬅ bigger card */
         padding: 24px;      /* ⬅ more spacing */
-        transform: scale(1.05); /* ⬅ slightly zoom */
+        transform: scale(1.1); /* ⬅ slightly zoom */
     }
+}
 
     h1 {
         font-size: 20px;
