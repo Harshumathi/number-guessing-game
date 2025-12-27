@@ -87,23 +87,37 @@ button:hover {
     color: #555;
 }
 
-/* ===============================
-   📱 MOBILE (max-width: 480px)
-================================= */
+/* 📱 MOBILE FIX */
 @media (max-width: 480px) {
+
+    body {
+        padding: 15px;
+    }
+
     .game-container {
-        padding: 20px;
+        width: 100%;
+        max-width: 380px;   /* ⬅ bigger card */
+        padding: 24px;      /* ⬅ more spacing */
+        transform: scale(1.05); /* ⬅ slightly zoom */
     }
 
     h1 {
-        font-size: 18px;
+        font-size: 20px;
+    }
+
+    p {
+        font-size: 14px;
     }
 
     input,
     select,
     button {
-        font-size: 14px;
-        padding: 9px;
+        font-size: 15px;
+        padding: 12px;  /* ⬅ better touch size */
+    }
+
+    button {
+        margin-top: 12px;
     }
 }
 
